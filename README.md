@@ -23,3 +23,4 @@ source 02_Run_Transformations.sh
 ```
 source 03_Analysis.sh
 ``` 
+All documentation is on: [OpenFE](https://docs.openfree.energy/en/latest/index.html)
