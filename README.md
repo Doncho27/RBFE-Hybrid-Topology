@@ -14,7 +14,12 @@ micromamba env create -n -f openfe.yml
 python 01_Create_plan.py
 ```
 ## Run simulations
-- To run all the simulations (Be aware of time, and the number of transformations you are running):
+- To run all the simulations (Be aware of time, and the number of transformations you are running), uses `openfe quickrun` :
 ```
 source 02_Run_Transformations.sh
+``` 
+## Analysis of simulations
+- To get the $\Delta\DeltaG$ values and raw $\DeltaG$ run the analysis script based on `openfe gather` (won't work if theres any leg left, in that case add the flag: `--allow-partial` to the script)
+```
+source 03_Analysis.sh
 ``` 
