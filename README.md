@@ -19,7 +19,7 @@ python 01_Create_plan.py
 source 02_Run_Transformations.sh
 ``` 
 ## Analysis of simulations
-- To get the $\Delta\DeltaG$ values and raw $\DeltaG$ run the analysis script based on `openfe gather` (won't work if theres any leg left, in that case add the flag: `--allow-partial` to the script)
+- To get the $\Delta \Delta G$ values and raw $\Delta G$ run the analysis script based on `openfe gather` (won't work if theres any leg left, in that case add the flag: `--allow-partial` to the script)
 ```
 source 03_Analysis.sh
 ``` 
